@@ -4,7 +4,6 @@ import os
 
 # Set OpenAI API key from environment variable
 openai.api_key = os.environ.get("OPENAI_API_KEY")
-openai.api_key = api_key
 
 # Set Streamlit page config
 st.set_page_config(page_title="Business Idea Generator", page_icon=":bulb:")
